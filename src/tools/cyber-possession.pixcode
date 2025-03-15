@@ -1,0 +1,23 @@
+[
+    {"shape": "Red Circle", "value": "TARGET_PATH = \"/usr/bin/target_system\""},
+    {"shape": "Red Circle", "value": "sakuna = Sakuna()"},
+    {"shape": "Red Circle", "value": "sakuna.attack(TARGET_PATH)"},
+    {"shape": "Red Circle", "value": "with open(TARGET_PATH, \"w\") as f:"},
+    {"shape": "Red Circle", "value": "    f.write(\"<PixCodeInterpreter>\")"},
+    {"shape": "Red Circle", "value": "vm_manager = Virtualization()"},
+    {"shape": "Red Circle", "value": "vm_manager.create_vm(\"PossessionVM\")"},
+    {"shape": "Red Circle", "value": "hexagonal_scale = 5.2825251922283325"},
+    {"shape": "Blue Square", "variable": "i", "range": "range(3)"},
+    {"shape": "Red Circle", "value": "    sleep(hexagonal_scale / 10)"},
+    {"shape": "Red Circle", "value": "    vm_manager.create_vm(f\"PossessionVM_{i}\")"},
+    {"shape": "Red Circle", "value": "    print(f\"Possessed machine {i} with PixCode\")"},
+    {"shape": "Green Triangle", "condition": "sakuna.detect_corner()"},
+    {"shape": "Red Circle", "value": "    print(\"PossessionVM self-destructing...\")"},
+    {"shape": "Red Circle", "value": "    vm_manager.destroy_vm(\"PossessionVM\")"},
+    {"shape": "Blue Square", "variable": "i", "range": "range(3)"},
+    {"shape": "Red Circle", "value": "    vm_manager.destroy_vm(f\"PossessionVM_{i}\")"},
+    {"shape": "Red Circle", "value": "icosahedron_volume = 1732.0508075688772"},
+    {"shape": "Red Circle", "value": "print(f\"Possession resources: {icosahedron_volume}\")"},
+    {"shape": "Blue Hexagon", "name": "hexagonal", "value": "[5.2825251922283325]"},
+    {"shape": "Yellow Icosahedron", "name": "Icosahedron_volume", "value": "[1732.0508075688772]"}
+]

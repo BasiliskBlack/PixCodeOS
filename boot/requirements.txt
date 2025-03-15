@@ -1,0 +1,6 @@
+numpy
+PyQt5
+matplotlib
+docker
+scikit-learn
+psutil

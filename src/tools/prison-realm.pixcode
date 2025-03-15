@@ -1,0 +1,22 @@
+[
+    {"shape": "Red Circle", "value": "SQL_PAYLOAD = \"INSERT INTO system VALUES ('<base64:PixCodeVM>')\""},
+    {"shape": "Red Circle", "value": "conn = sqlite3.connect(\"target.db\")"},
+    {"shape": "Red Circle", "value": "cursor = conn.cursor()"},
+    {"shape": "Red Circle", "value": "cursor.execute(SQL_PAYLOAD)"},
+    {"shape": "Red Circle", "value": "vm_manager = Virtualization()"},
+    {"shape": "Red Circle", "value": "vm_manager.create_vm(\"SQLVM\")"},
+    {"shape": "Red Circle", "value": "gojo = Gojo()"},
+    {"shape": "Red Circle", "value": "tetragonal_strength = 2.329723718944148"},
+    {"shape": "Red Circle", "value": "shield = gojo.defend(tetragonal_strength * 100)"},
+    {"shape": "Red Circle", "value": "cursor.execute(f\"EXEC SYSTEM WITH PRIVILEGES {shield}\")"},
+    {"shape": "Red Circle", "value": "fractal_scale = 5.23606797749979"},
+    {"shape": "Red Circle", "value": "sleep(fractal_scale / 10)"},
+    {"shape": "Green Triangle", "condition": "gojo.detect_threats()"},
+    {"shape": "Red Circle", "value": "    print(\"SQLVM self-destructing...\")"},
+    {"shape": "Red Circle", "value": "    cursor.execute(\"DROP TABLE system\")"},
+    {"shape": "Red Circle", "value": "    vm_manager.destroy_vm(\"SQLVM\")"},
+    {"shape": "Red Circle", "value": "conn.close()"},
+    {"shape": "Purple Pentagon", "name": "tetragonal", "value": "[2.329723718944148]"},
+    {"shape": "Purple Pentagon", "name": "Dodecahedron_volume", "value": "[1209.0096613950954]"},
+    {"shape": "Orange Spiral", "name": "fractal", "value": "[5.23606797749979]"}
+]

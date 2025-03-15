@@ -1,0 +1,31 @@
+# PixCodeOS - Developed by [Your Name] with AI as Co-Developer
+# AI tools (e.g., Grok) generated code based on my Sator Square equations and vision.
+
+QMainWindow {
+    background-color: #2e2e2e;
+}
+
+QLabel {
+    color: #ffffff;
+    font: 14px 'Arial';
+}
+
+QPushButton {
+    background-color: #4b4b4b;
+    color: #ffffff;
+    border: 1px solid #3c3c3c;
+    padding: 5px;
+}
+
+QLineEdit {
+    background-color: #3c3c3c;
+    color: #ffffff;
+    border: 1px solid #4b4b4b;
+    padding: 5px;
+}
+
+QLabel[objectName="sator_circle"] {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:1, stop:0 #2e2e2e, stop:1 #4b4b4b);
+    border-radius: 50px;
+    border: 2px solid #ffffff;
+}

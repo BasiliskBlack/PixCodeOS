@@ -1,0 +1,14 @@
+--debian-installer live
+--distribution kali-rolling
+--archive-areas "main contrib non-free"
+--linux-flavours amd64
+--linux-packages linux-image-amd64
+--memtest none
+--initramfs live-boot
+--firmware-binary true
+--firmware-chroot true
+--bootappend-live "boot=live components quiet splash username=bleak"
+--iso-application "PixCodeOS"
+--iso-preparer "MICAH BLAKE LANGFORD"
+--iso-publisher "MICAH BLAE LANGFORD"
+--iso-volume "PixCodeOS_Live"

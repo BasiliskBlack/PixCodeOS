@@ -1,0 +1,21 @@
+[
+    {"shape": "Red Circle", "value": "vm_manager = Virtualization()"},
+    {"shape": "Red Circle", "value": "vm_manager.create_vm(\"WarpgateVM\")"},
+    {"shape": "Red Circle", "value": "toji = Toji()"},
+    {"shape": "Red Circle", "value": "maki = Maki()"},
+    {"shape": "Red Circle", "value": "hexagonal_scale = 5.2825251922283325"},
+    {"shape": "Red Circle", "value": "sleep(5 * hexagonal_scale)"},
+    {"shape": "Red Circle", "value": "s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)"},
+    {"shape": "Red Circle", "value": "s.connect((\"192.168.1.1\", 5555))"},
+    {"shape": "Red Circle", "value": "toji.infiltrate(s)"},
+    {"shape": "Red Circle", "value": "maki.combat(s)"},
+    {"shape": "Red Circle", "value": "sator_key = \"TENET\""},
+    {"shape": "Red Circle", "value": "data = \"Warpgate active\".encode()"},
+    {"shape": "Red Circle", "value": "encrypted = \"\".join(chr(ord(c) ^ ord(k)) for c, k in zip(data.decode(), sator_key * (len(data) // len(sator_key) + 1)))"},
+    {"shape": "Red Circle", "value": "s.send(encrypted.encode())"},
+    {"shape": "Red Circle", "value": "dodecahedron_volume = 1209.0096613950954"},
+    {"shape": "Red Circle", "value": "print(f\"Warpgate resources: {dodecahedron_volume}\")"},
+    {"shape": "Blue Hexagon", "name": "hexagonal", "value": "[5.2825251922283325]"},
+    {"shape": "Purple Pentagon", "name": "Dodecahedron_volume", "value": "[1209.0096613950954]", "area": "[1875.300368198691]"},
+    {"shape": "Orange Spiral", "name": "fractal", "value": "[5.23606797749979]"}
+]

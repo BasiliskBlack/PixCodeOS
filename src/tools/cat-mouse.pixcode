@@ -1,0 +1,11 @@
+[
+    {"shape": "Red Circle", "value": "vm_manager = Virtualization()"},
+    {"shape": "Red Circle", "value": "vm_manager.create_vm(\"CatMouseVM\")"},
+    {"shape": "Blue Square", "variable": "i", "range": "range(1)"},
+    {"shape": "Red Circle", "value": "psutil.cpu_percent(interval=1, percpu=True)"},
+    {"shape": "Green Triangle", "condition": "gojo.detect_threats()"},
+    {"shape": "Red Circle", "value": "vm_manager.destroy_vm(\"CatMouseVM\")"},
+    {"shape": "Blue Hexagon", "name": "hexagonal", "value": "[5.2825251922283325]"},
+    {"shape": "Purple Pentagon", "name": "Dodecahedron_volume", "value": "[1209.0096613950954]"},
+    {"shape": "Orange Spiral", "name": "fractal", "value": "[5.23606797749979]"}
+]

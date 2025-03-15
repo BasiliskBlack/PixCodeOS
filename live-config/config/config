@@ -1,0 +1,18 @@
+# PixCodeOS - Developed by [Your Name] with AI as Co-Developer
+# AI tools (e.g., Grok) generated code based on my Sator Square equations and vision.
+
+lb config noauto \
+    --debian-installer live \
+    --distribution kali-rolling \
+    --archive-areas "main contrib non-free" \
+    --linux-flavours amd64 \
+    --linux-packages linux-image-amd64 \
+    --memtest none \
+    --initramfs live-boot \
+    --firmware-binary true \
+    --firmware-chroot true \
+    --bootappend-live "boot=live components quiet splash username=bleak" \
+    --iso-application "PixCodeOS" \
+    --iso-preparer "[Your Name]" \
+    --iso-publisher "[Your Name]" \
+    --iso-volume "PixCodeOS_Live"

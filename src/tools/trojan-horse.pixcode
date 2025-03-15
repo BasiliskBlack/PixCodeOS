@@ -1,0 +1,18 @@
+[
+    {"shape": "Red Circle", "value": "DELAY = 24 * 3600"},
+    {"shape": "Red Circle", "value": "pentagonal_scale = (3.14159 + 1.618 + 2.236) / 3"},
+    {"shape": "Red Circle", "value": "sleep(DELAY * pentagonal_scale)"},
+    {"shape": "Red Circle", "value": "vm_manager = Virtualization()"},
+    {"shape": "Red Circle", "value": "vm_manager.create_vm(\"TrojanVM\")"},
+    {"shape": "Red Circle", "value": "gojo = Gojo()"},
+    {"shape": "Red Circle", "value": "sakuna = Sakuna()"},
+    {"shape": "Red Circle", "value": "privileges = gojo.defend(100)"},
+    {"shape": "Red Circle", "value": "sakuna.attack(privileges)"},
+    {"shape": "Blue Square", "variable": "i", "range": "range(1)"},
+    {"shape": "Green Triangle", "condition": "icosahedron_volume > 100"},
+    {"shape": "Red Circle", "value": "    vm_manager.create_vm(f\"HelperVM_{i}\")"},
+    {"shape": "Red Circle", "value": "    print(f\"Spawned HelperVM_{i} with resource allocation: {icosahedron_volume}\")"},
+    {"shape": "Purple Pentagon", "name": "pentagonal", "value": "[2.3318982066131593]"},
+    {"shape": "Yellow Icosahedron", "name": "Icosahedron_volume", "value": "[173.20508075688772]"},
+    {"shape": "Orange Spiral", "name": "fractal", "value": "[5.23606797749979]"}
+]
