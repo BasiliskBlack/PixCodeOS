@@ -82,3 +82,23 @@ pixcodeos/
 │   │   ├── maki.py
 │   ├── utils/
 │   │   ├── __init__.
+```
+
+# PixCodeOS
+
+PixCodeOS is a custom operating system developed by MICAH BLAKE LANGFORD with AI as a co-developer. This project aims to create a unique OS with advanced sci-fi and eldritch properties.
+
+## Getting Started
+
+### Prerequisites
+
+- Python 3.x
+- Docker
+- Virtual environment (optional)
+
+### Installation
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/BasiliskBlack/PixCodeOS.git
+   cd PixCodeOS
